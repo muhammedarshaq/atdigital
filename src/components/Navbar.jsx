@@ -25,7 +25,7 @@ const Navbar = () => {
             </div>
             <div className={!nav ? 'fixed z-50 left-0 top-0 w-[75%] h-full bg-[#6B3CC9] ease-in-out duration-300' : 'fixed hidden'}>
                 <img className='p-10' src={logo} alt="atdigital" />
-                <ul className='pt-12 uppercase text-white font-medium'>
+                <ul className='pt-5 uppercase text-white font-medium'>
                     <li className='px-10 pb-10'>Services</li>
                     <li className='px-10 pb-10'>About</li>
                     <li className='px-10 pb-10'>Contact</li>
